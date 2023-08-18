@@ -1,16 +1,13 @@
 #!/bin/bash
 
 import sum as sum_modul
+import person as p
 
 def main():
-	for i in range(1, 10):
-		print(i)
-		sum = sum_modul.add(i, 10)
+	alice = p.Person("Alice", 20)
+	bob = p.Person("Bob", 21)
 
-		if sum % 2 == 0:
-			print("Sum:", sum)
-		else:
-			print("Sum:", (sum + 1))
+	alice.hello()
 
 
 if __name__ == '__main__':
