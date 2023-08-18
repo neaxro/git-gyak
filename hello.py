@@ -1,6 +1,8 @@
 #!/bin/bash
 
-def hello():
-	print("Hello World")
+def main():
+	print("Hello World!")
 
-hello()
+
+if __name__ == '__main__':
+	main()
