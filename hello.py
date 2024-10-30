@@ -4,7 +4,7 @@ import sum as sum_modul
 import person as p
 
 def main():
-	alice = p.Person("Alice", 20)
+	alice = p.Person("Alice", 22)
 	bob = p.Person("Bob", 21)
 
 	alice.hello()
