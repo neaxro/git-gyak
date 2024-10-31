@@ -6,7 +6,6 @@ import person as p
 def main():
 	alice = p.Person("Alice", 22)
 	bob = p.Person("Bob", 21)
-	jerry = p.Person("Jerry", 31)
 
 	alice.hello()
 
